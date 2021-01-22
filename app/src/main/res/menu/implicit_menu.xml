@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ActionOnFavor"
+        android:title="@string/favorite"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/on_full_star"/>
+    <item
+        android:id="@+id/ItsMe"
+        android:title="@string/its_me"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/setOnMainAlarm"
+        app:showAsAction="ifRoom"
+        android:title="@string/notify_change"
+        android:icon="@drawable/settingc_alm"/>
+
+    <item
+        android:id="@+id/setOnLanguage_change"
+        app:showAsAction="never"
+        android:title="@string/language_change"/>
+</menu>

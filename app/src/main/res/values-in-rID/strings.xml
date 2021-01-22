@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">damarBuildSubmissionKe3</string>
+    <string name="username">Pengguna</string>
+    <string name="name">Nama</string>
+    <string name="following">Pengikut</string>
+    <string name="location">Lokasi, %s</string>
+    <string name="followers">Mengikuti</string>
+    <string name="company">Perusahaan, %s</string>
+    <string name="avTr">Gambar</string>
+    <string name="repoSt">Repositori, %s</string>
+    <string name="username_find">Temukan Pengguna</string>
+    <string name="language_change">Atur Pada Bahasa</string>
+    <string name="notify_change">Atur Waktu Pengingat</string>
+    <string name="favorite">Idola</string>
+    <string name="lst">Daftar Idola Pengguna</string>
+    <string name="onSett">Pada Pengaturan</string>
+    <string name="d_remind">Pengingat Tiap Waktu</string>
+    <string name="d_message">Aplikasi GitUser Siap Kak</string>
+    <string name="set_onRemind">Atur Waktu Pengingat</string>
+    <string name="added_onFavorite">Operasi Tambah Sukses</string>
+    <string name="deleted_onFavorite">Sukses Hapus</string>
+    <string name="blank_favorite">Sedang Kosong Datanya</string>
+    <!-- TODO: Remove this placeholder text -->
+    <string name="onFavorFloating">onFavorFloating</string>
+    <string name="txvDetailsOnFavorites">DetailsOnFavorites</string>
+    <string name="lable_sub">Damar Submisi di Dicoding</string>
+    <string name="gmbrLabel">gmbrLabel</string>
+    <string name="its_me">Ini Aku!</string>
+    <string name="today">Kalender Hari ini</string>
+    <string name="eml">damar.3006@students.amikom.ac.id</string>
+    <string name="occ">Full Stack Web Developer</string>
+</resources>

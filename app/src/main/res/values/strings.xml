@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">damarBuildSubmissionKe3</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="following">Following</string>
+    <string name="location">Location, %s</string>
+    <string name="followers">Followers</string>
+    <string name="company">Company, %s</string>
+    <string name="avTr">Avatar</string>
+    <string name="repoSt">Repository, %s</string>
+    <string name="username_find">Find Username</string>
+    <string name="language_change">Set Language</string>
+    <string name="notify_change">Set On Alarm</string>
+    <string name="favorite">Favorite</string>
+    <string name="lst">List Of User Favorite</string>
+    <string name="onSett">On Setting</string>
+    <string name="d_remind">On Reminder Daily</string>
+    <string name="d_message">App Github User Ready Dude</string>
+    <string name="set_onRemind">Setting On Reminder</string>
+    <string name="added_onFavorite">Operation Add Success</string>
+    <string name="deleted_onFavorite">Success Delete</string>
+    <string name="blank_favorite">Is Empty Now</string>
+    <!-- TODO: Remove this placeholder text -->
+    <string name="onFavorFloating">onFavorFloating</string>
+    <string name="txvDetailsOnFavorites">DetailsOnFavorites</string>
+    <string name="lable_sub">Damar Submission Dicoding</string>
+    <string name="gmbrLabel">gmbrLabel</string>
+    <string name="its_me">Its Me!</string>
+    <string name="today">Today Calendar</string>
+    <string name="eml">damar.3006@students.amikom.ac.id</string>
+    <string name="occ">Full Stack Web Developer</string>
+</resources>

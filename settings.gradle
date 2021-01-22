@@ -1,0 +1,3 @@
+include ':itsconsumapps'
+include ':app'
+rootProject.name = "damarBuildSubmissionKe3"

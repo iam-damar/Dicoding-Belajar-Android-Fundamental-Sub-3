@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:background="@color/bareSnow"
+    android:orientation="horizontal"
+    android:padding="14dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/iCad"
+        app:cardCornerRadius="5dp"
+        android:layout_height="80dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="15dp"
+            android:id="@+id/card_imgOnsAvatar"
+            android:padding="4dp"
+            app:layout_constraintStart_toStartOf="@id/iCad"
+            android:src="@android:color/holo_orange_dark"
+            app:layout_constraintTop_toTopOf="@id/iCad"
+            app:layout_constraintBottom_toBottomOf="@id/iCad"/>
+
+        <TextView
+            android:id="@+id/card_onsUsername"
+            android:layout_width="230dp"
+            android:layout_marginTop="6dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="92dp"
+            android:layout_marginEnd="0dp"
+            android:text="@string/username"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:id="@+id/card_onsName"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="92dp"
+            android:layout_marginEnd="0dp"
+            android:maxLines="3"
+            android:text="@string/name"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="54dp"
+            android:maxLines="3"
+            android:text="@string/location"
+            android:id="@+id/card_onsLocation"
+            android:layout_marginStart="92dp"
+            android:layout_marginEnd="0dp"/>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

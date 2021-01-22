@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Prelude">
+
+    <ImageView
+        android:src="@drawable/dam_logosb"
+        android:layout_width="68dp"
+        android:clickable="false"
+        android:layout_height="68dp"
+        android:id="@+id/gmb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="180dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/gmbrLabel" />
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="105dp"
+        app:layout_constraintTop_toBottomOf="@id/cm"
+        android:indeterminate="true"
+        android:indeterminateTint="@android:color/holo_red_dark"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/nm"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/gmb"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:text="@string/lable_sub"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/cm"
+        android:layout_height="wrap_content"
+        android:text="@string/cmr_aps"
+        android:textSize="18sp"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintTop_toBottomOf="@id/nm"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
